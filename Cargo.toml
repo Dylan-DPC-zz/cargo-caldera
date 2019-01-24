@@ -1,0 +1,12 @@
+[package]
+name = "cargo-caldera"
+version = "0.1.0"
+authors = ["Dylan DPC <dylan.dpc@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+structopt = "0.2"
+semver = { version = "0.9", features = ["serde"] }
+toml = "0.4"
+serde_derive = "1"
+serde = "1"
